@@ -1,0 +1,12 @@
+// const nao pode ser alterado
+// já o let pode mudar a variavel
+
+/*
+essa aula fala sobre const 
+const primeiraNota = 10;
+const segundaNota = 5;
+const result = (primeiraNota + segundaNota) / 2;
+const resultDuplicado = result * 2;
+console.log(typeof(primeiraNota)); //typeof serve para saber o tipo da cosnt
+*/
+
