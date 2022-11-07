@@ -1,0 +1,9 @@
+// tipos primitivos
+
+const nome = 'Gustavo'; //string
+const idade = 20; //number
+let peso; //undefined esta esperando algo ser declarado
+const sobrenome = null; //nulo nao aponta para local nenhuma na memoria 
+const aprovado = true; //boolean recebe true ou false 
+ 
+console.log(typeof nome, idade, peso, sobrenome, aprovado);
