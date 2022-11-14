@@ -1,9 +1,15 @@
-const alunos = ['joao', 'luiz', 'gustavo'];
+const array = [1, 2, 3, 4, 5];
+array.pop();
+array[0] = '1024';
+console.log(array); // [ 1024, 2, 3, 4 ]
 
-alunos.push('maria')
-alunos.push('eduardo')
 
+// const alunos = ['joao', 'luiz', 'gustavo'];
 
+// alunos.push('maria')
+// alunos.push('eduardo')
+
+// console.log(alunos);
 
 // console.log(typeof(alunos)) alunos é object
 // console.log(alunos instanceof Array) sim alunos é um array
