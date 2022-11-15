@@ -11,7 +11,8 @@
     idade: 20
    }
 
-   const b = a
+   const b = {...a}
    a.nome = 'joao'
-   console.log(b); --> {joao}, {20}
+   console.log(a); --> {nome:joao, idade:20}
+   console.log(b); --> {nome:luiz, idade:20}
 */
