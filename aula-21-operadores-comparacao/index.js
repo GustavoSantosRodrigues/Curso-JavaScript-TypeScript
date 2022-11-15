@@ -8,6 +8,8 @@ operadores  de comparacao
 
 === igualdade estrita (valor e tip)
 !== diferente estrita (valor e tip)
+=== igualdade estrita
+!== diferente estrita
 */
 
 // const numer1 = 10;
