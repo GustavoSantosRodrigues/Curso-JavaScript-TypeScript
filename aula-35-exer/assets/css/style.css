@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0px;
+    outline: none;
+}
+
+body {
+    background-color: rgb(75, 137, 192);
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: #FFFF;
+    padding: 20px; 
+    border-radius: 20px; 
+    box-shadow: 5px -12px 44px 0px rgba(0,0,0,0.75);
+}
+
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size:24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline:1px solid cadetblue;
+}
+
+form button {
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 0;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+form button:hover{
+    color: black;
+    background-color: blueviolet;
+   
+}
+
+form button:active{
+    color: red;
+    background-color: black;
+}
