@@ -1,7 +1,7 @@
 /*
 for classico: geralmente com iteraveis [array] ou 'string
 for in: retorna o indice ou chaves [array], {chaves} ou 'string'
-for o: retorna o valor em si [array] ou 'strings'
+for of: retorna o valor em si [array] ou 'strings'
 */
 
 
